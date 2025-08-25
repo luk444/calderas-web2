@@ -1,0 +1,72 @@
+[
+  {
+    "id": "setup-project",
+    "content": "Configurar proyecto React con Tailwind CSS y dependencias necesarias",
+    "status": "completed"
+  },
+  {
+    "id": "create-layout",
+    "content": "Crear estructura de layout principal con header, footer y navegación",
+    "status": "completed"
+  },
+  {
+    "id": "implement-hero",
+    "content": "Implementar sección hero con CTAs y elementos de confianza",
+    "status": "completed"
+  },
+  {
+    "id": "create-carousel",
+    "content": "Crear carrusel infinito de marcas de calderas",
+    "status": "completed"
+  },
+  {
+    "id": "build-services",
+    "content": "Implementar sección de servicios con cards interactivas",
+    "status": "completed"
+  },
+  {
+    "id": "add-animations",
+    "content": "Agregar animaciones con Framer Motion y microinteracciones",
+    "status": "completed"
+  },
+  {
+    "id": "responsive-design",
+    "content": "Asegurar diseño responsive completo",
+    "status": "completed"
+  },
+  {
+    "id": "photo-recommendations",
+    "content": "Proporcionar recomendaciones detalladas sobre fotografías",
+    "status": "completed"
+  },
+  {
+    "id": "create-service-pages",
+    "content": "Crear páginas detalladas para cada servicio",
+    "status": "completed"
+  },
+  {
+    "id": "create-legal-pages",
+    "content": "Crear páginas legales (términos, privacidad, cookies)",
+    "status": "completed"
+  },
+  {
+    "id": "install-dependencies",
+    "content": "Instalar todas las dependencias del proyecto",
+    "status": "pending"
+  },
+  {
+    "id": "test-functionality",
+    "content": "Probar funcionalidad completa del sitio web",
+    "status": "pending"
+  },
+  {
+    "id": "optimize-performance",
+    "content": "Optimizar performance y Core Web Vitals",
+    "status": "pending"
+  },
+  {
+    "id": "deploy-production",
+    "content": "Desplegar en producción y configurar dominio",
+    "status": "pending"
+  }
+]

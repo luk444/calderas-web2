@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overscroll-behavior: none;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7;
+    color: theme('colors.neutral.900');
+    overscroll-behavior: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent-500 hover:bg-accent-600 text-white font-medium px-6 py-3 rounded-lg transition-all duration-200 hover:shadow-lg hover:scale-105 active:scale-95;
+  }
+  
+  .btn-secondary {
+    @apply bg-brand-600 hover:bg-brand-700 text-white font-medium px-6 py-3 rounded-lg transition-all duration-200 hover:shadow-lg hover:scale-105 active:scale-95;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-brand-600 text-brand-600 hover:bg-brand-600 hover:text-white font-medium px-6 py-3 rounded-lg transition-all duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-card hover:shadow-card-hover transition-all duration-200 hover:-translate-y-1;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-brand-600 to-brand-700 bg-clip-text text-transparent;
+  }
+  
+  .bg-gradient-hero {
+    background: radial-gradient(circle at 20% 50%, theme('colors.brand.600') 0%, theme('colors.brand.700') 100%);
+  }
+  
+  .bg-gradient-urgent {
+    background: linear-gradient(45deg, theme('colors.accent.500') 0%, theme('colors.brand.700') 100%);
+  }
+}
